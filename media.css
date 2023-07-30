@@ -1,0 +1,141 @@
+@media screen and (max-width:320px) {
+    .navbar{
+        flex-direction: column;
+        height: 250px;
+    }
+    .navbar ul{
+        flex-direction: column;
+        margin-right: 600px;
+        bottom: 1200px;
+    }
+   .h-img{
+    flex-direction: column-reverse;
+    right: 300px;
+   }
+   .h-img h3{
+    left: 700px;
+    top: 1400px;
+    font-size: 70px;
+   }
+   .h-img h1{
+    right: 1px;
+    top: 1500px;
+    font-size: 140px;
+   }
+   .h-img ul{
+    left: 700px;
+    top: 1700px;
+    font-size: 30px;
+   }
+   .h-img .btn{
+    left: 700px;
+    top: 1850px;
+   }
+   .gamer{
+    flex-direction: column;
+    height: 1200px;
+   }
+   .left h1{
+    left: 500px;
+    bottom: 500px;
+   }
+   .left p{
+     left: 400px;
+     bottom: 400px;
+   }
+   #para1{
+    left: 400px;
+    bottom: 200px;
+    text-align: center;
+   }
+   .gamer button{
+    top: 850px;
+    left: 570px;
+   }
+   .online{
+    margin-left: 70px;
+   }
+   .reels{
+    flex-direction: column;
+    gap: 170px;
+    margin-left: 630px;
+   }
+   .ins{
+    margin-top: 300px;
+    text-align: center;
+   }
+   #instant{
+    margin-top: 50px;
+    text-align: center;
+   }
+   .anywhere{
+    height: 350vh;
+    flex-direction: column;
+    margin-left: 600px;
+   }
+   .game-images .cowboy{
+    position: relative;
+    bottom: 500px;
+   }
+   .game-images .cat{
+    position: relative;
+    bottom: 900px;
+   }
+   .career-graph{
+    width: 1821px;
+    flex-direction: column;
+   }
+   .games-type {
+    height: 500vh;
+   }
+   .games{
+    flex-direction: column;
+   }
+   .games2{
+    flex-direction: column;
+    bottom: 800px;
+    left: 750px;
+   }
+   .l-box{
+    height: 850px;
+   }
+   .l-head{
+    margin-right: 550px;
+   }
+   .l-list{
+    position: relative;
+    right: 270px;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+
+   }
+   .l-icons{
+    top: 250px;
+    position: relative;
+    right: 300px;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 0 auto;
+   }
+   .rules{
+    position: relative;
+    right: 270px;
+    top: 300px;
+    white-space: nowrap;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+   }
+   .l-para{
+    position: relative;
+    right: 270px;
+    top: 350px;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+   }
+}
