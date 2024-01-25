@@ -4,193 +4,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My responsive Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Gamer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" style="width: auto; height: 50px" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
-    <div class="top-navbar">
-        <nav class="container flex navbar">
-            
-            <h2 class="flex"><img src="images/Frame.png" alt="" ><span>G</span>amer</h2>
-            <ul>
-                <li>About Us</li>
-                <li>Developers</li>
-                <li id="social">Follow Us On <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-tiktok"></i>
-                </li>
-            </ul>
-        </nav>
-    </div>
     <header>
-        <div class="h-img container">
-            <img src="images/Group 14.png" alt="" class="lightbg">
-            <h3>PLAY LIKE THE</h3>
-            <h1>G.O.A.T</h1>
-            <img src="images/Group 18.png" alt="" class="garden">
-            <ul>
-                <li> <i class="fa-regular fa-circle-play">&nbsp;</i> 1 click instant play</li>
-                <li> <i class="fa-solid fa-download">&nbsp;</i> No Download</li>
-                <li> <i class="fa-solid fa-user-group"></i> 1000s of suppported online games</li>
-            </ul>
-            <div class="btn">
-                <button id="btn1">SIGN IN</button>
-                <button id="btn2">GO ROGUE</button>
+        <!-- Navbar -->
+        <nav>
+            <div id="logo">
+                <img src="images/Frame.png" alt="frame">
+                <p><span>G</span>amer</p>
             </div>
-        </div>
+            <div id="info">
+                <a>About Us</a>
+                <a>Developers</a>
+                <a id="follow">Follow Us On <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </nav>
     </header>
-    <section class="flex gamer">
-        <div class="container we">
-            <div class="right">
-                <img src="images/pngwing 4.png" alt="">
+    <!-- Body -->
+    <main>
+        <!-- 1st part of body -->
+        <section>
+            <div class="image-container">
+                <!-- Background images -->
+                <div class="goat">
+                    <div class="play">
+                        <p>PLAY LIKE THE</p>
+                        <h1>G.O.A.T.</h1>
+                    </div>
+                    <div class="icon">
+                        <div class="icons">
+                            <p><i class="fa-regular fa-circle-play"></i></p>
+                            <p><i class="fa-solid fa-download"></i></p>
+                            <p><i class="fa-solid fa-user-group"></i></p>
+                        </div>
+                        <div class="i-texts">
+                            <p>1-Click instant play</p>
+                            <p>No Download</p>
+                            <p>1000s of supported online games</p>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button style="background: #FF42A5; font-size: 20px; text-transform: uppercase;">Sign In</button><button style="background: #4EC5F7; font-size: 20px; text-transform: uppercase;">Go
+                            Rogue</button>
+                    </div>
+                </div>
+                <div class="games">
+                    <img src="images/Group 18.png" alt="">
+                </div>
             </div>
-            <div class="left">
-                <h1>We are gamer</h1>
-                <p>An international digital games and entertainment <br> company. We develop, publish and distribute
-                    multiplayer<br>mobile games. We reach over 400 million players each<br>month and our audience keeps
-                    growing.</p>
+        </section>
+        <!-- 2nd part of body -->
+        <section>
+            <div class="gamer-container">
+                <div class="gamer">
+                    <div class="gamer-img"><img src="images/pngwing 4.png" alt=""></div>
+                    <div class="gamer-text">
+                        <h1>We are gamer</h1>
+                        <p>An international digital games and entertainment company. We develop, publish and distribute
+                            multiplayer mobile games. We reach over 400 million players each month and our audience
+                            keeps growing.</p>
+                        <button>Know more</button>
+                        <p style="font-size: 24px; font-weight: 500;">Our purpose...
+                            <span style="font-weight: 700; font-size: 32px;">“unleash the gamer in everyone”</span>
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <button>KNOW MORE</button>
-        <p id="para1">Our purpose... <br>
-            <span id="size">“unleash the gamer in everyone”</span>
-        </p>
-    </section>
-    <div class="flex2 container online">
-        <h1 id="videos">Online Games <span id="spanx">Funny Videos</span></h1>
-        <p id="para2 flex">A Collection of Hilarious Videos to Brighten Your Day</p>
-    </div>
-    <div class="container flex2 reels">
-        <div class="shorts"><img src="images/Rectangle 4.png" alt="">
-            <p id="subs">No Download. No Installs. Play <br> games Instantly on Gamer.</p>
-        </div>
-        <div class="shorts"><img src="images/Rectangle 5.png" alt="">
-            <p id="subs">Did you score? #unblockedgames #school</p>
-        </div>
-        <div class="shorts"><img src="images/Rectangle 7.png" alt="">
-            <p id="subs">Breaking game records like OG</p>
-        </div>
-        <div class="shorts"><img src="images/Rectangle 6.png" alt="">
-            <p id="subs">Busted gaming on school laptop, <br> but you are still lit.</p>
-        </div>
-    </div>
-    <section class="gaming-features">
-        <div class="anywhere container flex">
-            <div class="play flex">
-                <h1 class="ins"><span>Play Instantly,<br></span>
-                    No Downloads <br>
-                    No Installs.</h1>
-                <br>
-                <p id="instant">Play games online for free without <br> downloading. Just click the Play button <br> and play
-                    instantly in your browser.</p>
-            </div>
-            <div class="game-images">
-                <img src="images/Rectangle 55.png" alt="" class="cowboy">
-                <img src="images/Rectangle 66.png" alt="" class="cat">
-            </div>
-    </section>
-
-    <section class="gaming-features-2">
-        <div class="anywhere container flex">
-            <div class="game-images-2">
-                <img src="images/Rectangle 67.png" alt="" class="dracula">
-                <img src="images/Rectangle 78.png" alt="" class="cat-2">
-            </div>
-            <div class="play flex">
-                <h1><span>Play Games <br> Online</span> Anywhere,<br> Anytime!
-                    <br>
-                    <p>PC. dad’s phone, mom’s tablet, or your Chromebook,<br> with Gamer you can play your favorite
-                        games online <br>for free, any time, anywhere , on any device..</p>
-            </div>
-    </section>
-    <section class="carrer-graph">
-        <div class="career-choices container ">
-            <div class="careers flex">
-                <h1 id="career">Careers</h1>
-                <br>
-                <p>Gamer is driven to create the best and most fun games for our millions of <br> players all around the
-                    world, and we,re always on the lookout for more top <br> talent to join our growing team. If you,d
-                    like to help us make great games <br> and be a part of Gamers bright future, we,d love to hear from
-                    you.</p>
-                    <br><br>
-                    
-                        <div class="multimedia flex">
-                        <p>Multimedia Artist +<br>
-                            Data Engineer +<br>
-                            Android Engineer +<br>
-                            Server Developer +<br>
-                            Group Financial Accountant +<br>
-                            Senior User Acuisition Specialist +</p>
-                            <div class="libson">
-                                <p>Lisbon, Portugal <br>
-                                    Lisbon, Portugal <br>
-                                    Zoetermeer, Netherlands <br>
-                                    Lisbon, Portugal <br>
-                                    London, United Kingdom <br>
-                                    Lisbon, Portugal</p>
-                                    <button id="btn4">SEE ALL POSITIONS</button>
+        </section>
+        <!-- Cards -->
+        <section>
+            <div id="c-container">
+                <!-- Cards caption or heading -->
+                <div id="cards-heading">
+                    <h1 style="font-size: 48px; font-weight: 700;">Online Games<span> Funny Videos</span></h1>
+                    <p style="color: #534C64; font-weight: 400;">A Collection of Hilarious Videos to Brighten Your Day
+                    </p>
+                </div>
+                <div class="card-container">
+                    <div class="cards">
+                        <div>
+                            <div class="shorts">
+                                <img class="card-images" src="images/Rectangle 4.png" alt="games-images">
+                                <div class="text-container">
+                                    <p class="text"><span style="color: white; font-size: 48px;"><i
+                                                class="fa-solid fa-circle-play"></i></span> <br>Watch Now</p>
+                                </div>
                             </div>
+                            <p class="s-sub" style="font-size: small; text-align: center;">No Download. No Installs.
+                                Play <br> games Instantly on Gamer.</p>
                         </div>
-                        <img src="images/Group 65.png" alt="" id="kids">
-            </div>
-        </div>
-    </section>
-
-        <div class="games-type ">
-            <div class="category1 container">
-                <div class="games flex">
-                    <div class="g-names"><img src="images/Rectangle 11.png" alt=""><p id="g-desc">Action Games</p></div>
-                    <div class="g-names"><img src="images/Rectangle 12.png" alt=""><p id="g-desc">Adventure Games</p></div>
-                    <div class="g-names"><img src="images/Rectangle 13.png" alt=""><p id="g-desc">Arcade Games</p></div>
-                    <div class="g-names"><img src="images/Rectangle 14.png" alt=""><p id="g-desc">Educational Games</p></div>
-                    <div class="g-names"><img src="images/Rectangle 15.png" alt=""><p id="g-desc">Word Games</p></div>
-                </div>
-                <div class="games2 flex">
-                    <div class="g-names"><img src="images/Rectangle 16.png" alt=""><p id="g-desc2">Role Palying Games</p></div>
-                    <div class="g-names"><img src="images/Rectangle 17.png" alt=""><p id="g-desc2">Music & Audio Games</p></div>
-                    <div class="g-names"><img src="images/Rectangle 18.png" alt=""><p id="g-desc2">Puzzle Games</p></div>
-                    <div class="g-names"><img src="images/Rectangle 19.png" alt=""><p id="g-desc2">Strategy Games</p></div>
-                </div>
-
-            </div>
-        </div>
-        
-        <footer>
-            <div class="l-box">
-                <div class="lastpart container">
-                        <div class="l-head flex">
-                            <img src="images/Frame.png" alt=""><h1><span>G</span>amer</h1>
+                        <div>
+                            <div class="shorts">
+                                <img class="card-images" src="images/Rectangle 5.png" alt="games-images">
+                                <div class="text-container">
+                                    <p class="text"><span style="color: white; font-size: 48px;"><i
+                                                class="fa-solid fa-circle-play"></i></span> <br>Watch Now</p>
+                                </div>
+                            </div>
+                            <p class="s-sub" style="font-size: small; text-align: center;">Did you score?
+                                #unblockedgames #school</p>
                         </div>
-                            <ul class="l-list flex">
-                                <li>Our Story</li>
-                                <li>Games</li>
-                                <li>Web Games</li>
-                                <li>Careers</li>
-                                <li>Support</li>
-                                <li>My Account</li>
-                            </ul>
-
-                            <ul class="l-icons flex">
-                                <li><i class="fa-brands fa-twitter"></i></li>
-                                <li><i class="fa-brands fa-facebook"></i></li>
-                                <li><i id="tube" class="fa-brands fa-youtube "></i></li>
-                                <li><i class="fa-brands fa-linkedin-in"></i></li>
-                                <li><i class="fa-brands fa-instagram"></i></li>
-                                <li><i class="fa-brands fa-apple"></i></li>
-                            </ul>
-
-                            <ul class="rules flex">
-                                <li>Terms and Conditions</li>
-                                <li>Privacy Policy</li>
-                                <li>Cookie Policy</li>
-                                <li>Privacy Settings</li>
-                            </ul>
-
-                            <p class="l-para flex">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+                        <div>
+                            <div class="shorts">
+                                <img class="card-images" src="images/Rectangle 7.png" alt="games-images">
+                                <div class="text-container">
+                                    <p class="text"><span style="color: white; font-size: 48px;"><i
+                                                class="fa-solid fa-circle-play"></i></span> <br>Watch Now</p>
+                                </div>
+                            </div>
+                            <p class="s-sub" style="font-size: small; text-align: center;">Breaking game records like OG
+                            </p>
+                        </div>
+                        <div>
+                            <div class="shorts">
+                                <img class="card-images" src="images/Rectangle 6.png" alt="games-images">
+                                <div class="text-container">
+                                    <p class="text"><span style="color: white; font-size: 48px;"><i
+                                                class="fa-solid fa-circle-play"></i></span> <br>Watch Now</p>
+                                </div>
+                            </div>
+                            <p class="s-sub" style="font-size: small; text-align: center;">Busted gaming on school
+                                laptop, <br> but you are still lit.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </section>
+        <!-- Online games section -->
+        <section>
+            <div class="online-games-container">
+                <div class="no-downloads">
+                    <div class="no-downloads-texts">
+                        <h1 style="font-weight: 700; font-size: 38px;"><span style="color: #FF42A5;">Play
+                                Instantly,</span>
+                            No Downloads
+                            No Installs.</h1>
+                        <p style="margin-top: 24px; color: #534C64; font-weight: 400; ">Play games online for free
+                            without downloading. Just click the Play button and play instantly
+                            in your browser.</p>
+                    </div>
+                    <div class="no-downloads-image">
+                        <img class="cowboy" src="images/Rectangle 55.png" alt="games-image">
+                        <img class="catgirl" src="images/Rectangle 66.png" alt="games-image">
+                    </div>
+                </div>
+                <div class="play-online">
+                    <div class="play-online-image">
+                        <img class="dracula" src="images/Rectangle 67.png" alt="games-image">
+                        <img class="little-girl" src="images/Rectangle 78.png" alt="games-image">
+                    </div>
+                    <div class="play-online-text">
+                        <h1 style="font-weight: 700; font-size: 38px;"><span style="color: #FF42A5;">Play Games</span>
+                            <span id="online">Online</span> Anywhere, Anytime!</h1>
+                        <p style="color: #534C64; margin-top: 24px; font-weight: 400;">PC. dad’s phone, mom’s tablet, or
+                            your Chromebook, with Gamer you can play your favorite
+                            games online for free, any time, anywhere , on any device.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Careers -->
+        <section>
+            <div class="career-container">
+                <div class="career-sub-container">
+                    <div class="career-texts">
+                        <h1 style="font-size: 48px;">Careers</h1>
+                        <p id="cp" style="font-size: 18px; margin-top: 24px;">Gamer is driven to create the best and most fun games for our millions of players all around
+                            the world, and we,re always on the lookout for more top talent to join our growing team. If
+                            you,d like to help us make great games and be a part of Gamers bright future, we,d love to
+                            hear from you.</p>
+                            <div style="font-weight: 600; margin-top: 32px; font-size: 18px" class="career-sublines">
+                                <div class="career-rolls">
+                                    <p>Multimedia Artist +</p><br>
+                                    <p>Data Engineer +</p><br>
+                                    <p>Android Engineer +</p><br>
+                                    <p>Server Developer +</p><br>
+                                    <p>Group Financial Accountant +</p><br>
+                                    <p>Senior User Acuisition Specialist +</p><br>
+                                </div>
+                                <div style="text-align: right;" class="career-location">
+                                    <p>Lisbon, Portugal</p><br>
+                                    <p>Lisbon, Portugal</p><br>
+                                    <p>Zoetermeer, Netherlands</p><br>
+                                    <p>Lisbon, Portugal</p><br>
+                                    <p>London, United Kingdom</p><br>
+                                    <p>Lisbon, Portugal</p><br>
+                                </div>
+                            </div>
+                            <button>See all positions</button>
+                    </div>
+                    <div class="career-image">
+                        <img src="images/Group 65.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Game categories -->
+        <section>
+            <div class="game-categories-container">
+                <div class="game-sub-container">
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 11.png" alt="game-images">
+                        </div>
+                        <p>Action Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 12.png" alt="game-images">
+                        </div>
+                        <p>Adventure Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 13.png" alt="game-images">
+                        </div>
+                        <p>Arcade Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 14.png" alt="game-images">
+                        </div>
+                        <p>Educational Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 15.png" alt="game-images">
+                        </div>
+                        <p>Word Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 16.png" alt="game-images">
+                        </div>
+                        <p>Role Palying Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 17.png" alt="game-images">
+                        </div>
+                        <p>Music & Audio Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 18.png" alt="game-images">
+                        </div>
+                        <p>Puzzle Games</p>
+                    </div>
+                    <div class="game">
+                        <div>
+                            <img src="images/Rectangle 19.png" alt="game-images">
+                        </div>
+                        <p>Strategy Games</p>
+                    </div>
+                </div>
+                </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-banner">
+                    <img src="images/Frame.png" alt="">
+                    <p style="color: white; font-weight: 700; font-size: 40px;"><span style="color: #FF42A5;">G</span>amer</p>
+            </div>
+            <div class="other-informations">
+                <p>Our Story</p>
+                <p>Games</p>
+                <p>Web Games</p>
+                <p>Careers</p>
+                <p>Support</p>
+                <p>My Account</p>
+            </div>
+            <div class="other-handles">
+                <p><i id="twitter" class="fa-brands fa-twitter"></i></p>
+                <p><i id="fb" class="fa-brands fa-facebook"></i></p>
+                <p><i id="yt" class="fa-brands fa-youtube"></i></p>
+                <p><i id="in" class="fa-brands fa-linkedin-in"></i></p>
+                <p><i id="insta" class="fa-brands fa-instagram"></i></p>
+                <p><i id="apple" class="fa-brands fa-apple"></i></p>
+            </div>
+            <div class="rules-and-regulations">
+                <p>Terms and Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Cookie Policy</p>
+                <p>Privacy Settings</p>
+            </div>
+                <p style="color: rgba(255, 255, 255, 0.60); text-align: center; margin-top: 30px; padding-bottom: 50px;">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+        </div>
+    </footer>
 </body>
 
 </html>

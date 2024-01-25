@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+}
+
+header {
+    box-shadow: 0 2px 2px 1px rgb(213, 213, 213);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+#logo img {
+    height: 45px;
+}
+
+#logo p {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#logo p span {
+    color: #FF42A5;
+}
+
+#info {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#info a {
+    color: #3C354F;
+    font-weight: 500;
+    text-shadow: 1px 4px 5px rgb(218, 217, 217);
+}
+
+#follow {
+    background-color: rgba(11, 2, 35, 0.10);
+    width: 242px;
+    height: 56px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px;
+}
+
+.fa-brands {
+    font-size: 25px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.image-container {
+    display: flex;
+}
+
+.goat {
+    width: 50%;
+    background-image: url(images/Group\ 14.png);
+    min-height: 700px;
+    background-size: contain;
+}
+
+.games {
+    width: 50%;
+}
+
+.play {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.play p {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.play h1 {
+    font-size: 98px;
+    background: linear-gradient(180deg, #F948DE 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.icons {
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.i-texts {
+    font-size: 20px;
+    color: #534C64;
+    font-weight: 500;
+}
+
+.button {
+    justify-content: center;
+    margin-top: 41px;
+    display: flex;
+    gap: 44px;
+}
+
+.button button {
+    border-radius: 48px;
+    padding: 21px 40px;
+    border: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.gamer-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    min-height: 500px;
+}
+
+.gamer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 70px;
+}
+
+.gamer-img {
+    width: 50%;
+}
+
+.gamer-text {
+    width: 50%;
+}
+
+.gamer .gamer-img img {
+    width: 100%;
+}
+
+.gamer-text h1 {
+    text-align: right;
+}
+
+.gamer-text p {
+    text-align: right;
+}
+
+.gamer-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-text p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #534C64;
+}
+
+.gamer-text button {
+    margin-left: 450px;
+    margin-top: 20px;
+    top: 155px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 48px;
+    border: 0;
+    font-weight: 600;
+    color: white;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+#c-container{
+    padding: 20px;
+}
+
+#cards-heading {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#cards-heading span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#cards-heading p {
+    margin-top: 16px;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.cards img {
+    height: 330px;
+}
+
+.shorts {
+    position: relative;
+    width: 100;
+
+}
+
+.card-images {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.shorts:hover .text-container {
+    opacity: 1;
+    border-radius: 12px;
+    border: 4px solid #FF42A5;
+}
+
+.text {
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.s-sub {
+    margin-top: 24px;
+}
+
+.online-games-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.no-downloads {
+    display: flex;
+    min-height: 600px;
+    gap: 50px;
+}
+
+.no-downloads-texts {
+    width: 50%;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.no-downloads-image {
+    width: 50%;
+    position: relative;
+}
+
+.cowboy {
+    width: auto;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.no-downloads-image .catgirl {
+    position: absolute;
+    width: auto;
+    height: 300px;
+    top: 350px;
+    right: 300px;
+}
+
+.play-online {
+    margin-top: 200px;
+    min-height: 600px;
+    display: flex;
+    gap: 50px;
+}
+
+.play-online-image {
+    width: 50%;
+    position: relative;
+}
+
+.play-online-text {
+    width: 50%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.play-online-image .dracula {
+    width: auto;
+    height: 450px;
+}
+
+.play-online-image .little-girl {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    right: 1px;
+}
+
+#online {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.career-container {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    min-height: 800px;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.career-sub-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    color: white;
+    padding-top: 180px;
+}
+
+.career-texts {
+    width: 50%;
+}
+
+.career-image {
+    width: 50%;
+}
+
+.career-image img {
+    width: 100%;
+}
+
+.career-sublines {
+    display: flex;
+    gap: 47px;
+}
+
+.career-texts button {
+    padding: 11px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: 0;
+    color: #FF42A5;
+    margin-top: 40px;
+}
+
+.game-categories-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.game-sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.game{
+    display: flex;
+    flex-basis: 230px;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.game:hover{
+    border: 1.5px solid #FF42A5;
+    border-radius: 48px;
+    color: #FF42A5;
+    padding: 8px;
+}
+
+.footer-container{
+    background: #0B0223;
+    min-height: 500px;
+    margin-top: 120px;
+}
+
+.footer-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 80px;
+}
+
+.other-informations{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.other-handles{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 90px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+#twitter, #fb, #yt, #in, #insta, #apple{
+    color: white;
+    font-size: 40px;
+}
+
+.rules-and-regulations{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 600;
+    flex-wrap: wrap;
+}
