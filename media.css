@@ -19,7 +19,6 @@
     .image-container .goat{
         width: 100%;
     }
-
     .games img{
         width: 100%;
     }
@@ -92,12 +91,12 @@
     }
 
     .cowboy{
-        height: 300px;
+        height: 250px;
     }
 
     .no-downloads-image .catgirl{
         left: 50px;
-        height: 200px;
+        height: 160px;
         top: 200px;
     }
 
@@ -107,14 +106,14 @@
 
     .play-online-image .dracula{
         width: auto;
-        height: 300px;
+        height: 250px;
         margin-left: 65px;
     }
 
     .play-online-image .little-girl{
         width: auto;
-        height: 200px;
-        right: 11px;
+        height: 150px;
+        right: 100px;
         top: 200px;
     }
 
